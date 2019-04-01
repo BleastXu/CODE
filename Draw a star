@@ -1,0 +1,14 @@
+# Use turtle draw a star #
+import turtle
+star=turtle.Turtle()
+star.color('Yellow')
+star.forward(100)
+star.right(144)
+star.forward(100)
+star.right(144)
+star.forward(100)
+star.right(144)
+star.forward(100)
+star.right(144)
+star.forward(100)
+star.right(144)
