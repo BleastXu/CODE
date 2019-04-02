@@ -12,3 +12,14 @@ star.forward(100)
 star.right(144)
 star.forward(100)
 star.right(144)
+
+
+
+#2.0 of drawing a star with using different color line
+import turtle
+star=turtle.Turtle()
+colors=['yellow','blue','green','red','white']
+for color in colors:
+  star.color(color)
+  star.forward(100)
+  star.right(144)
