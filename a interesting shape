@@ -1,0 +1,24 @@
+# A regular shape with 5 lines and 5 stars which draw with different color line was surrounded by it
+import turtle
+star=turtle.Turtle()
+rainbow = ["red", "orange", "yellow", "green", "blue"]
+star.width(3)
+times=[1,2,3,4,5]
+# Make the shape in the middle
+star.penup()
+star.right(90)
+star.back(140)
+star.pendown()
+star.left(126)
+# Begin drawing
+for line in times:
+    star.right(108)
+    for dfcolor in rainbow:
+        star.color(dfcolor)
+        star.forward(50)
+        star.right(144)
+    star.color('light blue')
+    star.left(36)
+    star.forward(150)
+# hide the cursor
+star.hideturtle()
